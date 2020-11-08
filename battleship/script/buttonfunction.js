@@ -1,0 +1,3 @@
+class buttonfunction extends button {
+
+}

@@ -1,0 +1,10 @@
+const page = document.getElementById("start");
+page.width = window.innerWidth;
+page.height = window.innerHeight;
+pw = page.width;
+ph = page.height;
+const setup = page.getContext("2d");
+const mybutton = new button(setup,pw/3,ph/1.5,ph/5,pw/3,`black`);
+mybutton.drawRect();
+mybutton.addButtontext();
+mybutton.addimage();
